@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form class="MyForm" action="https://httpbin.org/anything" method="post">
+        <div>
+            
+            <input placeholder="E-postadress*" type="text" id="Epostadress" name="Epostadress" required aria-required="true">
+        </div>
+        <div>
+            <input placeholder="Telefon" type="text" id="Telefon" name="Telefon">
+        </div>
+        <div>
+            <input placeholder="Lösenord*" type="password" id="Lösenord" name="Lösenord" required aria-required="true">
+            <div class="visalösenord">
+                <button type="button"> VISA LÖSENORDET </button>
+            </div>
+        </div>
+        <div> 
+            <input id="Godkännavillkoren" type="checkbox" name="checkboxgodkännavillkoren" required aria-required="true"> 
+            <label for="Godkännavillkoren"> Jag vill bli medlem i Club Lyko och godkänner de allmänna vilkkoren, samt har tagit del av Lykos personuppgiftspolicy</label>
+        </div>
+        <div> 
+            <input id="Jaepost" type="checkbox" name="checkboxjaepost"> 
+            <label for="Jaepost"> Ja tack, jag vill få erbjudande via e-post </label> 
+        </div> 
+        <div> 
+            <input id="Jasms" type="checkbox" name="checkboxjasms">  
+            <label for="Jasms"> Ja tack, jag vill få erbjudande via sms </label> 
+        </div> 
+        <div>
+            <button class="buttom" type="submit"> BLI MEDLEM </button>
+        </div>
+    </form>
+</body>
+</html>

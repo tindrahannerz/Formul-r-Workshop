@@ -1,0 +1,63 @@
+.MyForm {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 10% auto 0 auto;
+    background-color: white;
+    padding: 40px;
+    width: 300px;
+    height: 450px;
+    justify-content: center;
+}
+
+body {
+    background-image: url(Bakgrund.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    font-family: 'roboto', sans-serif;
+}
+
+.visalösenord {
+    display: flex;
+    justify-content: end;
+}
+.visalösenord button {
+    border-style: none;
+    background-color: white;
+}
+.visalösenord button:hover {
+    text-decoration: underline;
+}
+
+#Epostadress {
+    width: 100%;
+padding-top: 7px;
+padding-bottom: 7px;
+    font-size: medium;
+}
+
+#Telefon {
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: medium;
+}
+
+#Lösenord {
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: medium;
+}
+
+
+.buttom {
+    background-color: #696969;
+    color: #ffffff;
+    font-size: medium;
+    border-radius: 5px;
+    padding: 8px;
+    border-style: none;
+}
